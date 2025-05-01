@@ -57,17 +57,6 @@ export default function RootLayout({
             "@type":"ReadAction",
             "target":"https://twittercolmek.pages.dev"}
         }
-        const jsonLd2 = {
-            "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": `${SITENAME}`,
-        "url": "https://twittercolmek.pages.dev",
-        "description": `${SITENAME} Video Bokep Indo Bocil Jepang Ngentot Jav Jilbab Smp Barat Mama Viral Sma Korea Tante China Live Paksa Bokep Abg Terbaru`,
-        "potentialAction": { 
-        "@type": "SearchAction", 
-          "target": "https://twittercolmek.pages.dev/?q={search_term}", 
-            "query-input": "required name=search_term"}
-        }
     return (
         <html lang="en" suppressHydrationWarning>
             <body className={font.className}>
@@ -80,10 +69,6 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd1) }}
         />
         <script
           type="application/ld+json"
